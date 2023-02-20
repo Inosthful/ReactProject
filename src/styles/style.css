@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+}
+
+#root {
+  padding: 0.75rem;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("http://unsplash.it/1200x800") center center no-repeat;
+  background-size: cover;
+}
+#root:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: 1;
+  z-index: -3;
+}
+
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+
+/* CSS */
+.button-40 {
+  background-color: #111827;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  padding: 0.2rem 0.8rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 12px;
+  width: auto;
+  height: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.text {
+  font-size: 15px;
+  color: black;
+}
+
+.text2 {
+  font-size: 19px;
+  color: black;
+}
+
+.text3 {
+  color: rgba(210, 105, 30, 0.689);
+}
+
+.koo {
+  width: 22%;
+}
+
+@media (max-width: 900px) {
+  .text {
+    font-size: 12px;
+    color: black;
+  }
+  .text2 {
+    font-size: 15px;
+    color: black;
+  }
+  .text3 {
+    color: rgba(210, 105, 30, 0.689);
+  }
+  .koo {
+    width: 30%;
+  }
+}
+@media (max-width: 665px) {
+  .text {
+    font-size: 11px;
+    color: black;
+  }
+  .text2 {
+    font-size: 14px;
+    color: black;
+  }
+  .text3 {
+    color: rgba(210, 105, 30, 0.689);
+  }
+  .koo {
+    width: 40%;
+  }
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.imgW {
+  width: 4%;
+  vertical-align: sub;
+  margin-left: 70vw;
+}
+
+.border {
+  border: solid 0.5px rgba(210, 105, 30, 0.689);
+}
+
+/*
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/*# sourceMappingURL=style.css.map */
