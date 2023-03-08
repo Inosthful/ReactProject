@@ -1,4 +1,4 @@
-import mcdo from './assets/mcdo.png'
+import mcdo from '../assets/mcdo.png'
 // function Header(){
 
 //     return (
