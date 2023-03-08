@@ -1,3 +1,4 @@
+import mcdo from '/assets/mcdo.png'
 // function Header(){
 
 //     return (
@@ -13,7 +14,7 @@
   function Img(){
     return(
       <div className="flex justify-end pr-10 pt-5">
-      <img className="imgW hover:cursor-pointer " src="/mcdo.png" alt="logo mcdo" />
+      <img className="imgW hover:cursor-pointer " src={mcdo} alt="logo mcdo" />
       </div>
     )
   }
