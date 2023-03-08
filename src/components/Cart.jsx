@@ -18,7 +18,7 @@ function Cart({cart, updateCart}){
 						))}
 					</ul>
 
-					<h3 className="pt-5 pb-5 text2">Total :{total}€</h3>
+					<h3 className="pt-5 pb-5 text-yellow-400">Total :{total}€</h3>
 					<button className="button-40 text3" onClick={() => updateCart([])}>Vider le panier</button>
             </div>
          
