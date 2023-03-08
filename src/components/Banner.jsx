@@ -13,7 +13,7 @@
   function Img(){
     return(
       <div className="flex justify-end pr-10 pt-5">
-      <img className="imgW hover:cursor-pointer " src="https://img1.freepng.fr/20171220/owq/mcdonald-s-logo-png-5a3aaf48d0fe37.8334024615137954008561.jpg" alt="logo mcdo" />
+      <img className="imgW hover:cursor-pointer " src="https://e7.pngegg.com/pngimages/571/250/png-clipart-mcdonald-s-mcdonald-s.png" alt="logo mcdo" />
       </div>
     )
   }
