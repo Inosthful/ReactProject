@@ -10,7 +10,7 @@ function Cart({cart, updateCart}){
 
         <div className='flex flex-col justify-start p-5 border koo '>
           <span className='lg:text-2xl text-xl font-bold text3 hover:text-gray-400 hover:underline hover:cursor-pointer'>Panier : </span>
-          <ul className='pt-7 text'>
+          <ul className='pt-7 text-yellow-400'>
 						{cart.map(({ name, price, amount }, index) => (
 							<div key={`${name}-${index}`}>
 								{name} {price}€ x {amount}
